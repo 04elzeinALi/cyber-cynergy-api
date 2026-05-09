@@ -11,24 +11,24 @@ Built with Laravel 11, MySQL, and Laravel Sanctum.
 - PHP 8.2+
 - Laravel 11
 - MySQL 8
-- Laravel Sanctum (token-based auth)
-- Postman (API documentation)
+- Laravel Sanctum 
+- Postman 
 
 ---
 
 ## Setup Instructions
 
-### 1. Clone the repository
+ 1. Clone the repository
 git clone https://github.com/04elzeinALi/cyber-cynergy-api.git
 cd cyber-cynergy-api
 
-### 2. Install dependencies
+ 2. Install dependencies
 composer install
 
-### 3. Copy environment file
+ 3. Copy environment file
 cp .env.example .env
 
-### 4. Configure your .env
+ 4. Configure your .env
 Set your database credentials:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -37,19 +37,19 @@ DB_DATABASE=cyber_cynergy
 DB_USERNAME=root
 DB_PASSWORD=
 
-### 5. Generate app key
+ 5. Generate app key
 php artisan key:generate
 
-### 6. Create the database
+ 6. Create the database
 Create a MySQL database named `cyber_cynergy`
 
-### 7. Run migrations
+ 7. Run migrations
 php artisan migrate
 
-### 8. Start the server
+ 8. Start the server
 php artisan serve
 
-The API will be available at http://127.0.0.1:8000
+ 9. hit http://127.0.0.1:8000
 
 ---
 
